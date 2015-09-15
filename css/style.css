@@ -1,8 +1,9 @@
 .content{padding:1em}
 .content li img{max-width: 200px;}
-.content li{max-width:100%;padding-bottom:10px;float:left;margin-bottom:15px;list-style-type:none;font-size:1.1em}
-li img{float:left;padding-right:1em}li p{font-size:.9em}
+.content li{border-bottom:1px solid #ccc;max-width:100%;padding-bottom:10px;float:left;margin-bottom:15px;list-style-type:none;font-size:1.1em}
+li img{float:left;padding-right:1em}
+li p{font-size:.9em}
 .content-title{text-align:center;font-size:1.3em;font-weight:700;margin-bottom:15px}
-footer span,li p{font-style:italic}
-footer{max-width:45em;margin:0 auto;padding:0 .5em;height:150px;position:relative}
-footer span{float:right}
+#footer span,li p{font-style:italic}
+#footer{font-size:10px;max-width:45em;margin:0 auto;padding:0 .5em;height:150px;}
+#footer span{float:right}

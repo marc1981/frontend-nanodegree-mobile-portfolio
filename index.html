@@ -21,7 +21,7 @@
         a:active,a:hover{color:#c00;outline:0}
         ol,ul{margin:0 0 0 -30px;padding:0 0 0 20px}
         img{border:0;max-width:100%}
-        .content li,.hero{border-bottom:1px solid #ccc}
+        .hero{border-bottom:1px solid #ccc}
         .container,header{max-width:45em;margin:0 auto}
         header{padding:0 .5em;color:#414b99}
         header img{border-radius:10px;float:left;max-width:57px;width: 100%;}
@@ -31,53 +31,58 @@
     </style>
   </head>
   <body>
-    <header>
-      <a href="https://marc1981.github.io/resume_project"><img src="img/marc.jpg"></a>
-      <p>Marc Anderson<br><span>Course Developer</span></p>
-    </header>
-    <div class="container">
-      <div class="hero">
-        <strong>Hi there! I'm just getting started with what I hope turns out to be a career in webdesign.</strong> This page contains a simple portfolio of my work so far. It showcases the projects I have completed for my Udacity Nanodegree, and it also contains a link to the page I made for my <strong>first novel</strong>!<br><hr> Contact me: marc_anderson_1981@yahoo.com or go to my <a class="icons" href="https://www.linkedin.com/pub/marc-anderson/1b/325/a31" target="_blank" style="text-decoration: none; color: #0c1566;">LinkedIn Profile</a>.
+    <div id="wrapper">
+      <header>
+        <a href="https://marc1981.github.io/resume_project"><img src="img/marc.jpg"></a>
+        <p>Marc Anderson<br><span>Course Developer</span></p>
+      </header>
+      <div id="content" class="container">
+        <div class="hero">
+          <strong>Hi there! I'm just getting started with what I hope turns out to be a career in webdesign.</strong> This page contains a simple portfolio of my work so far. It showcases the projects I have completed for my Udacity Nanodegree, and it also contains a link to the page I made for my <strong>first novel</strong>!<br><hr> Contact me: marc_anderson_1981@yahoo.com or go to my <a class="icons" href="https://www.linkedin.com/pub/marc-anderson/1b/325/a31" target="_blank" style="text-decoration: none; color: #0c1566;">LinkedIn Profile</a>.
+        </div>
+        <div class="content">
+          <div class="content-title">Projects</div>
+            <ul>
+              <li>
+                <img style="width:40%;" src="img/game.jpg">
+                <a href="https://marc1981.github.io/javascript-game">Build a game using JavaScript!</a>
+                <p>This was an assignment for the Object Oriented JavaScript class I took as part of my Udacity Nanodegree.</p>
+              </li>
+              <li>
+                <img style="width:40%;" src="img/resume.jpg">
+                <a href="https://marc1981.github.io/resume_project">Build your own online reusme!</a>
+                <p>This was a project that helped me get a better understanding of JavaScript and jQuery. The end result was a respectable resume that showcases some of my newly acquired skill.</p>
+              </li>
+              <li>
+                <img style="width:40%;" src="img/first_project.jpg">
+                <a href="https://marc1981.github.io/project_one">Make a Portfolio Site!</a>
+                <p>It seems a bit redundant, given what you are looking at now.</p>
+              </li>
+              <li>
+                <img style="width:40%;" src="img/zero_project.jpg">
+                <a href="https://marc1981.github.io/project_zero">First Project!</a>
+                <p>Yes, this is really basic, and technically wasn't even a 'project,' but it was still the first web-design that I had to do for my Nanodegree.</p>
+              </li>
+              <li>
+                <img style="width:40%;" src="img/book.jpg">
+                <a href="https://marc1981.github.io/book">Website for my first novel!</a>
+                <p>Take a look at my novel. The page gives a little bit of background on me as a writer and an overview of the book itself. It even has contact page where you can email directly. Neat!</p>
+              </li>
+              <li>
+                <img style="width:40%;" src="views/images/pizzeria.jpg">
+                <a href="views/pizza.html">Website for my first novel!</a>
+                <p>Take a look at my novel. The page gives a little bit of background on me as a writer and an overview of the book itself. It even has contact page where you can email directly. Neat!</p>
+              </li>
+
+
+            </ul>
+        </div>
       </div>
-      <div class="content">
-        <div class="content-title">Projects</div>
-          <ul>
-            <li>
-              <img style="width:40%;" src="img/game.jpg">
-              <a href="https://marc1981.github.io/javascript-game">Build a game using JavaScript!</a>
-              <p>This was an assignment for the Object Oriented JavaScript class I took as part of my Udacity Nanodegree.</p>
-            </li>
-            <li>
-              <img style="width:40%;" src="img/resume.jpg">
-              <a href="https://marc1981.github.io/resume_project">Build your own online reusme!</a>
-              <p>This was a project that helped me get a better understanding of JavaScript and jQuery. The end result was a respectable resume that showcases some of my newly acquired skill.</p>
-            </li>
-            <li>
-              <img style="width:40%;" src="img/first_project.jpg">
-              <a href="https://marc1981.github.io/project_one">Make a Portfolio Site!</a>
-              <p>It seems a bit redundant, given what you are looking at now.</p>
-            </li>
-            <li>
-              <img style="width:40%;" src="img/zero_project.jpg">
-              <a href="https://marc1981.github.io/project_zero">First Project!</a>
-              <p>Yes, this is really basic, and technically wasn't even a 'project,' but it was still the first web-design that I had to do for my Nanodegree.</p>
-            </li>
-            <li>
-              <img style="width:40%;" src="img/book.jpg">
-              <a href="https://marc1981.github.io/book">Website for my first novel!</a>
-              <p>Take a look at my novel. The page gives a little bit of background on me as a writer and an overview of the book itself. It even has contact page where you can email directly. Neat!</p>
-            </li>
-            <li>
-              <img style="width:40%;" src="views/images/pizzeria.jpg">
-              <a href="views/pizza.html">Cam's Pizzeria</a>
-              <p>Who wants a performant pizza?</p>
-            </li>
-          </ul>
-      </div>
+      <div style="clear:both"></div>
+      <div id="footer">
+        <div class="performance">&copy; Web Performance 2015 <span id="crp-stats"></span></div>
+      </div>>
     </div>
-    <footer>
-      <div class="performance">&copy; Web Performance 2015 <span id="crp-stats"></span></div>
-    </footer>
     <script>
       (function(w,g){w['GoogleAnalyticsObject']=g;
       w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
