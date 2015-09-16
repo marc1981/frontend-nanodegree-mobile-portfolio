@@ -22,7 +22,7 @@
         .hero{border-bottom:1px solid #ccc}
         .container,header{max-width:45em;margin:0 auto}
         header{padding:0 .5em;color:#414b99}
-        header img{border-radius:10px;float:left;max-width:57px;width: 100%;}
+        header img{border-radius:10px;float:left;max-height:70px;max-width: 100%;}
         header p{font-size:1.5em;padding-left:4em}
         header p span{font-size:.8em;font-weight:400}
         .hero{padding:2em;background-color:#f8f8f8;font-size:1.2em;border-top:1px solid #ccc}
@@ -33,18 +33,15 @@
         li p{font-size:.9em}
         .content-title{text-align:center;font-size:1.3em;font-weight:700;margin-bottom:15px}
         #footer span,li p{font-style:italic}
-        #footer{font-size:10px;max-width:45em;margin:0 auto;padding:0 .5em;height:150px;}
+        #footer{font-size:12px;max-width:45em;margin:0 auto;padding:0 .5em;height:150px;}
         #footer span{float:right}
-    </style>
-    <style>
-          @media only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
         body { font-size: 12px;}
         header p { padding-left: 4.5em;}
-      }
+        }
     </style>
   </head>
   <body>
-    <div id="wrapper">
       <header>
         <a href="https://marc1981.github.io/resume_project"><img src="img/marc.jpg"></a>
         <p>Marc Anderson<br><span>Course Developer</span></p>
@@ -69,7 +66,7 @@
               <li>
                 <img style="width:40%;" src="img/first_project.jpg">
                 <a href="https://marc1981.github.io/project_one">Make a Portfolio Site!</a>
-                <p>It seems a bit redundant, given what you are looking at now.</p>
+                <p>It seems a bit redundant, given what you are looking at now. Never the less, this page is really more of a mock-up of a portfolio page. It is still pretty function though.</p>
               </li>
               <li>
                 <img style="width:40%;" src="img/zero_project.jpg">
@@ -83,8 +80,8 @@
               </li>
               <li>
                 <img style="width:40%;" src="views/images/pizzeria.jpg">
-                <a href="views/pizza.html">Website for my first novel!</a>
-                <p>Take a look at my novel. The page gives a little bit of background on me as a writer and an overview of the book itself. It even has contact page where you can email directly. Neat!</p>
+                <a href="views/pizza.html">Pizza Time!</a>
+                <p>I have no idea what this is all about, but I'm supposed to do something to make it load faster. Awesome! I love ambiguous assignments.</p>
               </li>
             </ul>
         </div>
@@ -93,7 +90,6 @@
       <div id="footer">
         <div class="performance">&copy; Web Performance 2015 <span id="crp-stats"></span></div>
       </div>>
-    </div>
     <script>
       (function(w,g){w['GoogleAnalyticsObject']=g;
       w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
