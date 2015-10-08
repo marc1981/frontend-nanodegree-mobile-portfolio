@@ -2,6 +2,7 @@
 
 Moved essential CSS to HTML header.
 Minified remaining CSS files.
+Minified JS file.
 Compressed image files.
 Specified images' widths and heights.
 Removed unnecessary font style.
