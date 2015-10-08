@@ -1,5 +1,3 @@
-
-
 // As you may have realized, this website randomly generates pizzas.
 // Here are arrays of all possible pizza ingredients.
 var pizzaIngredients = {};
@@ -361,11 +359,9 @@ var pizzaElementGenerator = function(i) {
   pizzaContainer.style.width = "30%";
   pizzaContainer.style.height = "300px";
   pizzaContainer.id = "pizza" + i;                // gives each pizza element a unique id
-  //pizzaOffsetContainer.classList.add("col-md-1");
 
   pizzaOffsetContainer.appendChild(pizzaOffset);
   pizzaContainer.appendChild(pizzaOffsetContainer);
-
 
   pizzaDescriptionContainer.classList.add("col-md-12");
 
@@ -380,8 +376,6 @@ var pizzaElementGenerator = function(i) {
 
   return pizzaContainer;
 };
-
-
 
 window.performance.mark("mark_start_generating"); // collect timing data
 
@@ -410,12 +404,6 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
   }
   console.log("Average time to generate last 10 frames: " + sum / 10 + "ms");
 }
-
-// The following code for sliding background pizzas was pulled from Ilya's demo found at:
-// https://www.igvita.com/slides/2012/devtools-tips-and-tricks/jank-demo.html
-
-// Moves the sliding background pizzas based on scroll position
-
 
 // runs updatePositions on scroll
 window.addEventListener('scroll', updatePositions);
